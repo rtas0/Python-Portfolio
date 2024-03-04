@@ -2,7 +2,7 @@
 import math
 
 # user chooses investment or bond, ensure it is in lowercase
-requested_action = (input("""Please choose either 'bond' or 'investment from the below menu to proceed:
+requested_action = (input("""Please choose either 'bond' or 'investment' from the below menu to proceed:
                        
                        bond - to calculate the amount you'll have to pay on a home loan
                        investment - to calculate the amount of interest you'll earn on your investment""")).lower()
