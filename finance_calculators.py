@@ -19,7 +19,7 @@ if requested_action == "bond":
 elif requested_action == "investment":
     # ask user for necessary inputs for an investment
     deposit = int(input("How much money in £ is being deposited?"))
-    investment_interest_rate = float(input("What interest rate are you receiving in %"))/100
+    investment_interest_rate = float(input("What annual interest rate are you receiving in %"))/100
     deposit_length = int(input("How many years are you investing for?"))
     # ask user which type of interest they will be getting and ensure lowercase
     interest_type = (input("Is your interest 'simple' or 'compound'")).lower()
